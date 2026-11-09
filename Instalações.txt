@@ -2,6 +2,27 @@
 INSTALAÇÕES DO PROJETO      (jsnProject)
 
 
+    #   Iniciar o Projeto:
+        $   cd ~/Projects/jsnProject
+        $   make up
+    
+    #   Confirmação
+        $   make ps
+
+            Serviço	            URL
+            ------------------------------------------------
+            WordPress	    http://localhost:8080
+            Admin WP	    http://localhost:8080/wp-admin
+            phpMyAdmin	    http://localhost:8081
+            Mailpit	        http://localhost:8025
+
+    #   Resumo dos comandos diários:
+
+        $   make up        # início do dia (sobe/retoma tudo)
+        $   make logs      # ver logs em tempo real
+        $   make down      # fim da sessão (para os containers)
+
+
     #  Serviço URL
 
         WordPress 
