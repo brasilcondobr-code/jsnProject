@@ -1,0 +1,6 @@
+.git
+.env
+wp-content
+db
+node_modules
+*.log

@@ -1,0 +1,40 @@
+
+INSTALAÇÕES DO PROJETO      (jsnProject)
+
+
+    #  Serviço URL
+
+        WordPress 
+                http://localhost:8080
+
+            Admin:
+                http://localhost:8080/wp-admin
+                http://localhost:8080/wp-login.php
+                Login               admin
+                Password            admin
+                Email               dev@jsn.local
+
+        ------------------------------------------------------------
+
+        phpMyAdmin
+                http://localhost:8081
+
+            Admin:
+                http://localhost:8081
+                Login               jsn
+                Password            jsn_local_password
+                Server              db
+                Banco de Dados      jsn_wp
+
+        ------------------------------------------------------------
+
+        Mailpit (UI)
+                http://localhost:8025
+
+                O Mailpit é a caixa de correio fake do ambiente local: ele captura todos os e-mails que o WordPress envia (pelo SMTP interno na porta 1025) em vez de entregá-los na internet.
+
+        Mailpit (SMTP)
+                localhost:1025
+        
+        ------------------------------------------------------------
+

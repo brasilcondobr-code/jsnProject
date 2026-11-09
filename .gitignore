@@ -46,3 +46,14 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Projeto JSN
+.env
+node_modules/
+.DS_Store
+.idea/
+.vscode/
+db/*.sql
+db/*.sql.gz
+wp-content/cache/
+wp-content/upgrade/

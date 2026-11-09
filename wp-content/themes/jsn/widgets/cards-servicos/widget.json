@@ -1,0 +1,31 @@
+{
+  "slug": "cards-servicos",
+  "title": "Cards de serviços",
+  "description": "Grade de serviços com ícones, títulos, resumos e links.",
+  "version": "0.1.0",
+  "defaults": {
+    "eyebrow": "O que fazemos",
+    "title": "Serviços que organizam a rotina do condomínio",
+    "text": "Uma equipe especializada para cuidar das tarefas do dia a dia e apoiar as decisões do síndico.",
+    "items": [
+      {
+        "icon": "01",
+        "title": "Assessoria administrativa",
+        "text": "Documentos, atas, comunicados e rotinas de secretaria com organização e rastreabilidade.",
+        "url": "/servicos/"
+      },
+      {
+        "icon": "02",
+        "title": "Gestão financeira",
+        "text": "Controle de receitas e despesas, conciliação, prestação de contas e apoio orçamentário.",
+        "url": "/servicos/"
+      },
+      {
+        "icon": "03",
+        "title": "Gestão de pessoas",
+        "text": "Apoio à equipe do condomínio, escalas, orientação e organização documental.",
+        "url": "/servicos/"
+      }
+    ]
+  }
+}

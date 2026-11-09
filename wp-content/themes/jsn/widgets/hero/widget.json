@@ -1,0 +1,21 @@
+{
+  "slug": "hero",
+  "title": "Hero institucional",
+  "description": "Abertura da home com proposta de valor, CTAs e métricas.",
+  "version": "0.1.0",
+  "defaults": {
+    "eyebrow": "Gestão condominial sem complicação",
+    "title": "Seu condomínio administrado com clareza, tecnologia e proximidade.",
+    "text": "A JSN cuida da rotina administrativa e financeira para que síndicos e condôminos tenham mais tranquilidade e transparência.",
+    "primary_label": "Fale com a JSN",
+    "primary_url": "/contato/",
+    "secondary_label": "Acessar área restrita",
+    "secondary_url": "/area-restrita/",
+    "metric_1_value": "+20 anos",
+    "metric_1_label": "de experiência",
+    "metric_2_value": "100%",
+    "metric_2_label": "prestação de contas",
+    "metric_3_value": "24/7",
+    "metric_3_label": "portal online"
+  }
+}

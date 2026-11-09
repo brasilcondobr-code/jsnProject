@@ -1,0 +1,29 @@
+{
+  "slug": "faq",
+  "title": "FAQ",
+  "description": "Perguntas frequentes com respostas em acordeão nativo.",
+  "version": "0.1.0",
+  "defaults": {
+    "eyebrow": "Dúvidas frequentes",
+    "title": "Perguntas que recebemos com frequência",
+    "text": "Não encontrou o que procura? Fale com a equipe JSN.",
+    "items": [
+      {
+        "question": "A JSN atende condomínios de qualquer porte?",
+        "answer": "Sim. A estrutura de serviços é adaptada ao porte, à rotina e às necessidades de cada condomínio."
+      },
+      {
+        "question": "Como funciona a prestação de contas?",
+        "answer": "Os relatórios são organizados mensalmente, com histórico de receitas, despesas e documentos de apoio."
+      },
+      {
+        "question": "O síndico mantém a gestão do condomínio?",
+        "answer": "Sim. A JSN atua como apoio administrativo e operacional, fortalecendo o trabalho do síndico e do conselho."
+      },
+      {
+        "question": "A área restrita é para quem?",
+        "answer": "Síndicos, conselheiros, condôminos e equipe JSN com acesso autorizado ao portal."
+      }
+    ]
+  }
+}

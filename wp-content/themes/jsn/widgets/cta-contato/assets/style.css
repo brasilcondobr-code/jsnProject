@@ -1,0 +1,62 @@
+.jsn-cta {
+	background: #ffffff;
+}
+
+.jsn-cta__box {
+	display: grid;
+	grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr);
+	gap: clamp(24px, 4vw, 56px);
+	align-items: center;
+	padding: clamp(32px, 5vw, 56px);
+	border-radius: 26px;
+	background:
+		radial-gradient(circle at 10% 10%, rgba(26, 188, 156, .22), transparent 42%),
+		#0b1f2a;
+	color: #f7fbfc;
+	box-shadow: 0 28px 70px rgba(11, 31, 42, .18);
+}
+
+.jsn-cta__content h2 {
+	margin: 0;
+	max-width: 20ch;
+	font-size: clamp(1.7rem, 3vw, 2.6rem);
+	line-height: 1.1;
+	letter-spacing: -.03em;
+}
+
+.jsn-cta__content p:not(.jsn-eyebrow) {
+	max-width: 52ch;
+	margin: 16px 0 0;
+	color: #c5d8df;
+	line-height: 1.6;
+}
+
+.jsn-eyebrow--light {
+	color: #b8f3e8;
+}
+
+.jsn-cta__actions {
+	display: grid;
+	gap: 18px;
+	justify-items: start;
+}
+
+.jsn-cta__contacts {
+	display: grid;
+	gap: 4px;
+}
+
+.jsn-cta__contacts a {
+	color: #d7f5ee;
+	text-decoration: none;
+}
+
+.jsn-cta__contacts a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+	.jsn-cta__box {
+		grid-template-columns: 1fr;
+	}
+}

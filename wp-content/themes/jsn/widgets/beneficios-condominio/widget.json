@@ -1,0 +1,29 @@
+{
+  "slug": "beneficios-condominio",
+  "title": "Benefícios do condomínio",
+  "description": "Lista de benefícios e argumentos de valor para síndicos e condôminos.",
+  "version": "0.1.0",
+  "defaults": {
+    "eyebrow": "Por que a JSN",
+    "title": "Mais controle, menos burocracia",
+    "text": "Processos organizados e comunicação clara para o condomínio funcionar melhor.",
+    "items": [
+      {
+        "title": "Transparência na prestação de contas",
+        "text": "Relatórios objetivos e histórico organizado para acompanhar cada movimento."
+      },
+      {
+        "title": "Atendimento próximo",
+        "text": "Canal direto com a equipe JSN para síndicos, conselheiros e condôminos."
+      },
+      {
+        "title": "Rotinas padronizadas",
+        "text": "Fluxos claros para documentos, solicitações, financeiro e comunicados."
+      },
+      {
+        "title": "Tecnologia no dia a dia",
+        "text": "Portal online para centralizar informações e reduzir idas e vindas."
+      }
+    ]
+  }
+}

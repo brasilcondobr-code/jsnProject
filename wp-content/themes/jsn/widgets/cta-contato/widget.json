@@ -1,0 +1,16 @@
+{
+  "slug": "cta-contato",
+  "title": "CTA de contato",
+  "description": "Chamada final para contato com e-mail, telefone e botão.",
+  "version": "0.1.0",
+  "defaults": {
+    "eyebrow": "Próximo passo",
+    "title": "Vamos conversar sobre o seu condomínio?",
+    "text": "Conte o que você precisa. A equipe JSN retorna com uma proposta clara e sem compromisso.",
+    "email": "contato@jsn.local",
+    "phone": "+55 11 99999-0000",
+    "phone_url": "tel:+5511999990000",
+    "button_label": "Enviar mensagem",
+    "button_url": "mailto:contato@jsn.local"
+  }
+}
