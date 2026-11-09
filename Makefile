@@ -87,6 +87,10 @@ install: wait
 seed: wait
 	$(WP_RUN) eval-file /scripts/seed.php
 
+## demo-idyllic: aplica o conteúdo de demonstração do tema idyllic-clone (ativando-o)
+demo-idyllic: wait
+	$(WP_RUN) eval-file wp-content/themes/idyllic-clone/inc/demo-seed.php
+
 fresh: down permissions
 	$(COMPOSE) up -d --build
 	$(MAKE) install

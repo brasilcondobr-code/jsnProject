@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520" role="img">
+	<rect width="420" height="520" fill="#e9f5f7"/>
+	<g fill="none" stroke="#46c5d4" stroke-width="3" opacity=".75">
+		<circle cx="210" cy="200" r="78"/>
+		<circle cx="210" cy="170" r="26"/>
+		<path d="M160 236 a52 52 0 0 1 100 0"/>
+	</g>
+	<text x="210" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#48808a" opacity=".7">Foto do membro</text>
+</svg>

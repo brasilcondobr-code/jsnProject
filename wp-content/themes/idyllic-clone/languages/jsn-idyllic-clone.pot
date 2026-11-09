@@ -1,0 +1,28 @@
+# Template de tradução do tema Idyllic Clone.
+# Copyright (C) 2026 JSN Negócios Administrativos
+# Este arquivo é distribuído bajo GPL-2.0-or-later.
+# Regenerative: wp i18n make-pot .
+msgid ""
+msgstr ""
+"Project-Id-Version: Idyllic Clone 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.local/\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-09 09:00+0000\n"
+"X-Generator: make-pot\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: inc customizer.php:header
+msgid "Pular para o conteúdo"
+msgstr ""
+
+#: header.php
+msgid "Abrir busca"
+msgstr ""
+
+#: header.php
+msgid "Buscar…"
+msgstr ""

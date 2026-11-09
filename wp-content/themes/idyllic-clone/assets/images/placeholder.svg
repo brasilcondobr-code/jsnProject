@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img">
+	<rect width="600" height="420" fill="#e9f5f7"/>
+	<g fill="#46c5d4" opacity=".5">
+		<rect x="240" y="150" width="120" height="120" rx="4" fill="none" stroke="#46c5d4" stroke-width="3"/>
+		<path d="M270 210 l20 -24 16 20 12 -14 24 30" fill="none" stroke="#46c5d4" stroke-width="3"/>
+		<circle cx="356" cy="188" r="6"/>
+	</g>
+	<text x="300" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#48808a" opacity=".7">Imagem em destaque</text>
+</svg>

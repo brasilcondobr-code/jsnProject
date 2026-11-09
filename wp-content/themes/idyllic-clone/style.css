@@ -1,0 +1,169 @@
+/*
+Theme Name: Idyllic Clone
+Theme URI: https://example.local/idyllic-clone
+Author: JSN Negócios Administrativos
+Author URI: https://example.local/
+Description: Tema corporativo original inspirado na referência visual "Idyllic Plus": front-page com hero slider, features, serviços, CTA, sobre, contadores, equipe, depoimentos e blog. Totalmente editável pelo Customizer. Código próprio; integração opcional com WooCommerce/CF7.
+Version: 1.0.4
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jsn-idyllic-clone
+Tags: custom-menu, custom-logo, custom-colors, featured-images, one-column, two-columns, right-sidebar, footer-widgets, sticky-post, translation-ready
+*/
+
+/*
+ * Este arquivo contém o cabeçalho do tema e a base tipográfica.
+ * Estilos de componentes/seções: assets/css/main.css
+ * Media queries: assets/css/responsive.css
+ * Tokens de design extraídos: STYLEGUIDE.md
+ */
+
+/* ==============================
+   1. Design tokens (valores reais medidos no demo)
+   ============================== */
+:root {
+	--id-primary: #46c5d4;
+	--id-accent: #ff4530;
+	--id-text: #484848;
+	--id-heading: #343434;
+	--id-muted: #747474;
+	--id-bg-page: #ffffff;
+	--id-bg-about: #f8f8f8;
+	--id-bg-testimonials: #f4f4f4;
+	--id-bg-team: #fafafa;
+	--id-bg-input: #fafafa;
+	--id-bg-info: #eeeeee;
+	--id-bg-stats: #aaaaaa;
+	--id-btn: #484848;
+	--id-border: #eeeeee;
+
+	--id-font-body: "Arimo", "Helvetica Neue", helvetica, arial, sans-serif;
+	--id-font-meta: "Lustria", georgia, serif;
+	--id-wrap: 1170px;
+	--id-inner-wrap: 978px;
+	--id-section-y: 80px;
+	--id-radius: 0;
+}
+
+/* ==============================
+   2. Reset leve + base tipográfica
+   ============================== */
+.idyllic-clone,
+.idyllic-clone * ,
+.idyllic-clone *::before,
+.idyllic-clone *::after {
+	box-sizing: border-box;
+}
+
+.idyllic-clone {
+	background-color: var(--id-bg-page);
+	font-family: var(--id-font-body);
+	font-size: 16px;
+	line-height: 26px;
+	color: var(--id-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	color: var(--id-heading);
+	clear: both;
+	margin: 0 0 0.6em;
+}
+
+h1 { font-size: 30px; line-height: 1.233; }
+h2 { font-size: 26px; line-height: 1.269; }
+h3 { font-size: 24px; line-height: 1.292; }
+h4 { font-size: 22px; line-height: 1.318; }
+h5 { font-size: 20px; line-height: 1.350; }
+h6 { font-size: 18px; line-height: 1.389; }
+
+p { margin: 0 0 26px; }
+
+a {
+	color: var(--id-primary);
+	text-decoration: none;
+	transition: color .2s ease;
+}
+
+a:hover,
+a:focus {
+	color: var(--id-accent);
+}
+
+:focus-visible {
+	outline: 2px solid var(--id-primary);
+	outline-offset: 2px;
+}
+
+ul, ol { margin: 0 0 26px; padding-left: 20px; }
+
+figure { margin: 0; }
+
+img { max-width: 100%; height: auto; }
+
+::selection {
+	background: var(--id-primary);
+	color: #fff;
+}
+
+/* ==============================
+   3. Container
+   ============================== */
+.wrap {
+	margin: 0 auto;
+	max-width: var(--id-wrap);
+	position: relative;
+}
+
+@media (max-width: 1200px) {
+	.wrap { margin: 0 15px; max-width: none; }
+}
+
+.inner-wrap {
+	max-width: var(--id-inner-wrap);
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* ==============================
+   4. Utilitários de acessibilidade
+   ============================== */
+.screen-reader-text {
+	border: 0;
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	clip-path: none;
+	color: var(--id-primary);
+	display: block;
+	font-size: 14px;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+.skip-link {
+	position: absolute;
+	left: -9999px;
+}
+
+.skip-link:focus {
+	left: 5px;
+	top: 5px;
+	z-index: 100000;
+}

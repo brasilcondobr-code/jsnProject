@@ -1,6 +1,13 @@
 
 INSTALAÇÕES DO PROJETO      (jsnProject)
 
+    WordPress 6.8.3
+    PHP 8.3
+
+
+    Template:       https://demo.themefreesia.com/idyllic-plus/
+    
+
 
     #   Iniciar o Projeto:
         $   cd ~/Projects/jsnProject
